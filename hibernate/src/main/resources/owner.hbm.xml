@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+  
+ <hibernate-mapping>  
+  <class name="com.hibernate.Owner" table="owner">  
+    <id name="oid">  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="name"></property>  
+   
+      <property name="phoneno"></property>  
+   
+            
+  </class>  <class name="com.hibernate.Shop" table="shop">  
+    <id name="oid">  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="shopid"></property>  
+ 
+    <property name="shopname"></property>  
+      <property name="rating"></property>  
+   
+            
+  </class>  
+            
+ </hibernate-mapping>  
